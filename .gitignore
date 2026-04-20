@@ -1,0 +1,36 @@
+# ── Dependencies ──────────────────────────────────────────────────────────────
+node_modules/
+
+# ── Build output (Render builds this automatically) ───────────────────────────
+dist/
+
+# ── Environment secrets — NEVER commit ────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── Large media files (upload to Cloudinary instead) ──────────────────────────
+*.MOV
+*.mov
+*.mp4
+*.MP4
+*.zip
+
+# ── Replit-specific files (not needed on Render) ──────────────────────────────
+.replit
+replit.md
+.local/
+attached_assets/
+.agents/
+
+# ── OS / editor ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+npm-debug.log*
